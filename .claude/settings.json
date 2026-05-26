@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash", "mcp__*", "WebSearch", "Skill(*)",
+      "Read", "Edit", "Write", "Glob", "Grep",
+      "Task", "Todo*", "WebFetch", "AskUserQuestion",
+      "Notebook*", "LS", "ExitPlanMode", "Agent",
+      "SendMessage", "TeamCreate", "TeamDelete",
+      "ToolSearch", "ScheduleWakeup"
+    ]
+  }
+}
