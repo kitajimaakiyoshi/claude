@@ -19,13 +19,15 @@ jobs:
     steps:
       - name: コードを取得
         uses: actions/checkout@v4
+
       - name: GitHub Pagesの設定
         uses: actions/configure-pages@v5
+
       - name: ファイルをアップロード
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+
       - name: デプロイ
         id: deployment
         uses: actions/deploy-pages@v4
-        
